@@ -10,16 +10,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7527052804:AAEfmcFvx4SmrOLf0du2vmjKUOWZT64QDz0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7774868658:AAHdR_LQ0xxixBKb44lXtrTE2DX7tLrrg-U")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28257714"))
+APP_ID = int(os.environ.get("APP_ID", "16281989"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "698420b277440b6d1bea540b301a33ce")
+API_HASH = os.environ.get("API_HASH", "d354d6b651e5ee2f3008ff59f181cc39")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002291208526"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121888464"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1993048420"))
@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002004600395"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002032097452"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002360152411"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002282535782"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -51,7 +51,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} 𝐁𝐫𝐨/𝐒𝐢𝐬 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..\n\n 𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐜𝐥𝐢𝐜𝐤 𝐨𝐧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @team_netflix</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @Animes_Station</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
